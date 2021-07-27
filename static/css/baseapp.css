@@ -30,5 +30,7 @@
 }
 
 .off-white {
-    color: rgb(0, 0, 0);
+    color: rgb(136, 243, 14);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
