@@ -26,9 +26,11 @@ class Profile(models.Model):
     def get_profile(cls):
         profile=Profile.objects.all()
         return profile
+    
 
     def __str__(self):
         return f'{self.user.username} Profile'
+
 
 class Neighbourhood(models.Model):
     hood_name = models.CharField(max_length = 60)
@@ -36,6 +38,7 @@ class Neighbourhood(models.Model):
     family_size = models.IntegerField()
     pub_date = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     prof_ref = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='neighbourhoods', null=True)
+
 
     class Meta:
     
