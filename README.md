@@ -5,7 +5,7 @@ Hoodapp
 - A web application that allows users to be in the loop about everything happening in their neighbourhood. From contact information of different handymen to meeting announcements or even alerts.
 
 # Link to Live Project
-- 
+- https://hoodapp01.herokuapp.com/
 # Author 
 - [Robert Okello](https://github.com/Robertokello11)
 
